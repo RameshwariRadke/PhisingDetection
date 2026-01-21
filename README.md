@@ -15,14 +15,14 @@ Real-time user feedback through a web interface
 ## Live Application
 🔗 Live Demo: https://websafe.streamlit.app/
 
-Key Capabilities
+## Key Capabilities
 * End-to-end ML pipeline (not limited to notebooks)
 * Real-time inference through a web-based UI
 * Trained and serialized machine learning model
 * Clean separation of concerns (UI, feature engineering, model logic)
 * Deployed and accessible via Streamlit Cloud
 
-System Workflow
+## System Workflow
 * User provides input through the web interface
 * Input data is transformed into engineered features
 * Features are passed to the trained AdaBoost classifier
