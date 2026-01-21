@@ -1,0 +1,59 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Jupyter / IDE
+# -----------------------------
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+app_logs.log
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Model artifacts
+# -----------------------------
+models/*.pkl
+
+# -----------------------------
+# Data (OPTIONAL - READ BELOW)
+# -----------------------------
+# Uncomment if datasets are large or sensitive
+# data/
+# mini_dataset/
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+*.tmp
+*.bak
+*.swp
+
+__pycache__/
+*.pyc
+.env
+app_logs.log
+.ipynb_checkpoints/
+
