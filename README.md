@@ -2,8 +2,7 @@
 An end-to-end machine learning web application that detects phishing content using a trained AdaBoost classifier, deployed on Streamlit Cloud.
 This project demonstrates complete ML ownership — from data processing and feature engineering to model training, persistence, and production deployment.
 
-Problem Statement
-
+## Problem Statement
 Phishing attacks exploit users through malicious links and deceptive content.
 Manual detection is unreliable and does not scale.
 This system automates phishing detection using machine learning, enabling:
@@ -11,19 +10,17 @@ This system automates phishing detection using machine learning, enabling:
 2.Consistent predictions
 3.Real-time user feedback via a web interface
 
-Live Application
-
+## Live Application
 🔗 Live Demo: https://websafe.streamlit.app/
 
-Key Capabilities
-
+## Key Capabilities
 End-to-end ML pipeline (not just a notebook)
 Real-time inference via web UI
 Trained and serialized ML model
 Clean separation of concerns (UI, ML, features)
 Deployment on Streamlit
 
-System Workflow
+## System Workflow
 User provides input via web interface
 Input is converted into engineered features
 Features are passed to the trained AdaBoost model
@@ -32,8 +29,7 @@ Model predicts:
 2.Phishing
 3.Prediction is displayed instantly on the UI
 
-Model Information
-
+## Model Information
 Algorithm: AdaBoost Classifier
 Training: Supervised learning on labeled phishing/legitimate data
 Model Format: Pickle (.pkl)
